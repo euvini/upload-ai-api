@@ -1,0 +1,25 @@
+
+# @name Return-all-prompts
+GET http://localhost:3333/prompts
+
+###
+
+# @name Upload-video
+POST http://localhost:3333/videos
+
+###
+
+# @name Create-transcription
+POST http://localhost:3333/videos/
+
+###
+
+# @name Generate-AI-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+    "videoId": "2a8ad499-e3b7-47ed-86ad-87c6a42672d3",
+    "temperature": 0.2,
+    "template": "gere"
+}
