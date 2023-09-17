@@ -21,5 +21,5 @@ Content-Type: application/json
 {
     "videoId": "2a8ad499-e3b7-47ed-86ad-87c6a42672d3",
     "temperature": 0.2,
-    "template": "gere"
+    "prompt": "gere"
 }
